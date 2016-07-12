@@ -1,5 +1,5 @@
 {
-    "name": "gartok/google-map-bundle",
+    "name": "egeloen/google-map-bundle",
     "type": "symfony-bundle",
     "description": "Provides a google map integration for your Symfony2 Project.",
     "keywords": [ "google map" ],
@@ -8,10 +8,8 @@
         {
             "type": "package",
             "package": {
-                "name": "gartok/google-map",
+                "name": "egeloen/google-map",
                 "version": "master",
-                "autoload": { "psr-0": { "gartok/google-map": "" } },
-                "target-dir": "gartok/google-map",
                 "source": {
                     "url": "https://github.com/Gartok/ivory-google-map.git",
                     "type": "git",
