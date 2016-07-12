@@ -4,18 +4,10 @@
     "description": "Provides a google map integration for your Symfony2 Project.",
     "keywords": [ "google map" ],
     "license": "MIT",
-	"repositories": [
+    "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "egeloen/google-map",
-                "version": "master",
-                "source": {
-                    "url": "https://github.com/Gartok/ivory-google-map.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/Gartok/ivory-google-map.git"
         }
     ],
     "authors": [
